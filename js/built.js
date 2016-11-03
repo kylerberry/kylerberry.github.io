@@ -940,6 +940,7 @@ var Animate = (function() {
 
     //remove dead look on restart
     if(selector.hasClass('dead')) {
+      $('body').removeClass('game-over');
       selector.removeClass('dead');
       parent.addClass('hover');
       shadow.addClass('shadow-moving');
@@ -980,6 +981,7 @@ var Animate = (function() {
     clearInterval(blinkTimer);
     selector.removeClass();
     selector.addClass('dead');
+    $('body').addClass('game-over');
     parent.removeClass('hover');
     shadow.removeClass('shadow-moving');
   };
@@ -1279,6 +1281,7 @@ var Kygotchi = (function(animate, StateMachine, dragula) {
     clearInterval(timer); // kill world clock
     localStorage.removeItem('gotchi'); //reset localStorage props
     unbindActions(); //unbind listeners
+    $('#timer').hide();
 
     drake.destroy(); //kill dragula listeners
     /*fixes situation where dragula binds would not be destroyed if
@@ -1395,6 +1398,11 @@ var Kygotchi = (function(animate, StateMachine, dragula) {
     clearInterval(timer);
     unbindActions(true);
 
+    //reset the clock
+    var clockClone = $('#timer').clone();
+    $('#timer').remove();
+    $('.timer-wrapper').append(clockClone.hide());
+
     if(drake) {
       drake.destroy();
       drake = null;
@@ -1459,6 +1467,7 @@ var Kygotchi = (function(animate, StateMachine, dragula) {
   */
   var startTimer = function() {
     ky.updateMeters();
+    $('#timer').show();
     return setInterval(function() {
       StateMachine.update();
       ky.updateMeters();
