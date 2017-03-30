@@ -1573,4 +1573,7 @@ $('document').ready(function() {
         'reset' : '#reset',
       }
     });
+
+    var today = new Date();
+    $('#copyright_year').html(today.getFullYear());
 });
