@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/kylerberry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kylerberry.com
+  * I am kylerberry (https://keybase.io/kylerberry) on keybase.
+  * I have a public key ASC3nvvVptdj2D0Jc-isKnbiVjpgxLmdUM2ual8eCGkvOwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b79efbd5a6d763d83d0973e8ac2a76e2563a60c4b99d50cdae6a5f1e08692f3b0a",
+      "host": "keybase.io",
+      "kid": "0120b79efbd5a6d763d83d0973e8ac2a76e2563a60c4b99d50cdae6a5f1e08692f3b0a",
+      "uid": "f084abeaabd2450bf704038c62c11319",
+      "username": "kylerberry"
+    },
+    "merkle_root": {
+      "ctime": 1507756237,
+      "hash": "10f58674dbb72c17e0a6a32aa6bfe4322c3268fa5c701810163231b03140fa116bfa91466e14c8799d21ceff158dcbaab8b46caa8ff74d099065fe353f4ccac8",
+      "hash_meta": "9f0a5392538e90e1f4b57c721e0b29962da8a7765f90bba88b2b6af6950c81b9",
+      "seqno": 1561475
+    },
+    "service": {
+      "hostname": "kylerberry.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507756250,
+  "expire_in": 504576000,
+  "prev": "3f9e88f7b4bd4d2095b8f52108707ca21b5c312f4f671878d7e3685457f91e44",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgt5771abXY9g9CXPorCp24lY6YMS5nVDNrmpfHghpLzsKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjc5ZWZiZDVhNmQ3NjNkODNkMDk3M2U4YWMyYTc2ZTI1NjNhNjBjNGI5OWQ1MGNkYWU2YTVmMWUwODY5MmYzYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjc5ZWZiZDVhNmQ3NjNkODNkMDk3M2U4YWMyYTc2ZTI1NjNhNjBjNGI5OWQ1MGNkYWU2YTVmMWUwODY5MmYzYjBhIiwidWlkIjoiZjA4NGFiZWFhYmQyNDUwYmY3MDQwMzhjNjJjMTEzMTkiLCJ1c2VybmFtZSI6Imt5bGVyYmVycnkifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDc3NTYyMzcsImhhc2giOiIxMGY1ODY3NGRiYjcyYzE3ZTBhNmEzMmFhNmJmZTQzMjJjMzI2OGZhNWM3MDE4MTAxNjMyMzFiMDMxNDBmYTExNmJmYTkxNDY2ZTE0Yzg3OTlkMjFjZWZmMTU4ZGNiYWFiOGI0NmNhYThmZjc0ZDA5OTA2NWZlMzUzZjRjY2FjOCIsImhhc2hfbWV0YSI6IjlmMGE1MzkyNTM4ZTkwZTFmNGI1N2M3MjFlMGIyOTk2MmRhOGE3NzY1ZjkwYmJhODhiMmI2YWY2OTUwYzgxYjkiLCJzZXFubyI6MTU2MTQ3NX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJreWxlcmJlcnJ5LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjMzIn0sImN0aW1lIjoxNTA3NzU2MjUwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjNmOWU4OGY3YjRiZDRkMjA5NWI4ZjUyMTA4NzA3Y2EyMWI1YzMxMmY0ZjY3MTg3OGQ3ZTM2ODU0NTdmOTFlNDQiLCJzZXFubyI6MjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAtpnUoQqwDAZDe1tmlzUFn91RrruzyvlUcy77K6E9ZtrezuTSUUYOKgONa+wc3HgQgjrnGFZH6i+4rl4MRKFHD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJaioir898+MS3Zyf3Mw80cOycP6bdAoBgIYzjOHd80Eo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kylerberry
+
+==================================================================
